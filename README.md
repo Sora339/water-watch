@@ -1,4 +1,6 @@
-# プログラムの解説
+
+![alt text](view.png)
+# プログラムの解説 - Water Watch
 
 ## GitHubリポジトリ
 - https://github.com/Sora339/water-watch
