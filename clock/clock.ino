@@ -3,10 +3,7 @@
 #include <time.h>
 #include <sys/time.h>
 #include <cmath>
-
-// Wi-Fi (iPhoneテザリングのSSID/パスワードを設定)
-const char* WIFI_SSID = "NishiboriのiPhone";
-const char* WIFI_PASS = "SSItechB160";
+#include "WiFiConfig.h"
 
 // NTP設定 (JST: UTC+9)
 static const long GMT_OFFSET_SEC = 9 * 3600;

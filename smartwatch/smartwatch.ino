@@ -8,6 +8,7 @@
 #include <BLEScan.h>
 #include <BLEAdvertising.h>
 #include "ImgData.h"
+#include "WiFiConfig.h"
 
 // =====================================
 // Mode Definitions
@@ -28,8 +29,6 @@ const unsigned long MENU_TIMEOUT = 2000; // 2 seconds
 // =====================================
 // Clock Mode Variables
 // =====================================
-const char* WIFI_SSID = "NishiboriのiPhone";
-const char* WIFI_PASS = "SSItechB160";
 static const long GMT_OFFSET_SEC = 9 * 3600;
 static const int DST_OFFSET_SEC = 0;
 const char* NTP_1 = "ntp.nict.jp";
